@@ -1,0 +1,9 @@
+curl -X POST http://localhost:6769/agregarusuario \
+  -H "Content-Type: application/json" \
+  -d '{
+    "nombre": "Fran",
+    "email": "fran.e.negri@gmail.com",
+    "edad": 18
+}'
+
+http://localhost:6769/usuarios/1
