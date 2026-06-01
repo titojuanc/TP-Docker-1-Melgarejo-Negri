@@ -46,4 +46,4 @@ docker run -d --name gintonic \
   ghcr.io/titojuanc/gintonic:latest
 
 echo ""
-echo "✓ Todo listo! API corriendo en http://localhost:6769"
+echo "✓ Todo listo! API corriendo en http://localhost:6769/health"
